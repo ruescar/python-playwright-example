@@ -1,0 +1,44 @@
+[MASTER]
+# Python version
+py-version=3.13.5
+
+[MESSAGES CONTROL]
+# Disable some warnings that are often too strict or noisy
+disable=
+    C0103,  # invalid-name
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    C0411, # wrong-import-order
+    R0801, # Similar lines in 3 files
+    R0903,  # too-few-public-methods
+    R0913,  # too-many-arguments
+    R0914,  # too-many-locals
+    R0915,  # too-many-statements
+    R1722, # consider-using-sys-exit
+    W0511  # TO DO (fix me)
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=120
+
+# String used as indentation unit.
+indent-string='    '
+
+[IMPORTS]
+# Allow wildcard imports from modules that define __all__
+allow-wildcard-with-all=yes
+
+[DESIGN]
+# Maximum number of arguments for function / method
+max-args=6
+
+[BASIC]
+# Naming style conventions
+variable-naming-style=snake_case
+function-naming-style=snake_case
+method-naming-style=snake_case
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+attr-naming-style=snake_case
+argument-naming-style=snake_case
