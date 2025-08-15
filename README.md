@@ -32,4 +32,5 @@ $ pytest
 $ pytest ./scripts/test_example.py
 $ pytest --headed
 $ pytest --browser webkit --browser firefox
+$ pytest --html=reports/report.html
 ```
